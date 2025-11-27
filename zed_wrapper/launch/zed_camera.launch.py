@@ -411,7 +411,7 @@ def generate_launch_description():
                 choices=['true', 'false']),
             DeclareLaunchArgument(
                 'publish_imu_tf',
-                default_value='false',
+                default_value='true',
                 description='Enable publication of the IMU TF. Note: Ignored if `publish_tf` is False.',
                 choices=['true', 'false']),
             DeclareLaunchArgument(
